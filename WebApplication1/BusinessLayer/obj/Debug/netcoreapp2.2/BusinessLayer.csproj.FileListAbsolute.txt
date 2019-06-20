@@ -1,0 +1,12 @@
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\BusinessLayer\bin\Debug\netcoreapp2.2\BusinessLayer.deps.json
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\BusinessLayer\bin\Debug\netcoreapp2.2\BusinessLayer.dll
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\BusinessLayer\bin\Debug\netcoreapp2.2\BusinessLayer.pdb
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\BusinessLayer\bin\Debug\netcoreapp2.2\DataLayer.dll
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\BusinessLayer\bin\Debug\netcoreapp2.2\DataLayer.pdb
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\BusinessLayer\obj\Debug\netcoreapp2.2\BusinessLayer.csprojAssemblyReference.cache
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\BusinessLayer\obj\Debug\netcoreapp2.2\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\BusinessLayer\obj\Debug\netcoreapp2.2\BusinessLayer.AssemblyInfoInputs.cache
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\BusinessLayer\obj\Debug\netcoreapp2.2\BusinessLayer.AssemblyInfo.cs
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\BusinessLayer\obj\Debug\netcoreapp2.2\BusinessLayer.csproj.CopyComplete
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\BusinessLayer\obj\Debug\netcoreapp2.2\BusinessLayer.dll
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\BusinessLayer\obj\Debug\netcoreapp2.2\BusinessLayer.pdb
