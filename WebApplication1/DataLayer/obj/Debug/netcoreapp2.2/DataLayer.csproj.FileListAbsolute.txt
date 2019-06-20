@@ -1,0 +1,11 @@
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\bin\Debug\netcoreapp2.2\DataLayer.deps.json
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\bin\Debug\netcoreapp2.2\DataLayer.dll
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\obj\Debug\netcoreapp2.2\DataLayer.csproj.CoreCompileInputs.cache
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\obj\Debug\netcoreapp2.2\DataLayer.AssemblyInfoInputs.cache
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\obj\Debug\netcoreapp2.2\DataLayer.AssemblyInfo.cs
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\obj\Debug\netcoreapp2.2\DataLayer.csprojAssemblyReference.cache
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\bin\Debug\netcoreapp2.2\DataLayer.runtimeconfig.json
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\bin\Debug\netcoreapp2.2\DataLayer.runtimeconfig.dev.json
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\bin\Debug\netcoreapp2.2\DataLayer.pdb
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\obj\Debug\netcoreapp2.2\DataLayer.dll
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\obj\Debug\netcoreapp2.2\DataLayer.pdb
