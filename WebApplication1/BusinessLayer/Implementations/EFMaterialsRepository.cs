@@ -23,7 +23,7 @@ namespace BusinessLayer.Implementations
             return _context.Materials.ToList();
         }
 
-        public Material GetMaterial(int materialId, bool includeDirectory)
+        public Material GetMaterialById(int materialId, bool includeDirectory = false)
         {
             if (includeDirectory)
                 return _context.Set<Material>().Include(m => m.Directory).AsNoTracking()

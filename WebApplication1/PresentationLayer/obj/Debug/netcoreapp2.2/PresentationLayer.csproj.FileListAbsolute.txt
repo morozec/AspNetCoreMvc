@@ -1,0 +1,14 @@
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\bin\Debug\netcoreapp2.2\PresentationLayer.deps.json
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\bin\Debug\netcoreapp2.2\PresentationLayer.dll
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\bin\Debug\netcoreapp2.2\PresentationLayer.pdb
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\bin\Debug\netcoreapp2.2\BusinessLayer.dll
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\bin\Debug\netcoreapp2.2\DataLayer.dll
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\bin\Debug\netcoreapp2.2\BusinessLayer.pdb
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\bin\Debug\netcoreapp2.2\DataLayer.pdb
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\obj\Debug\netcoreapp2.2\PresentationLayer.csprojAssemblyReference.cache
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\obj\Debug\netcoreapp2.2\PresentationLayer.csproj.CoreCompileInputs.cache
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\obj\Debug\netcoreapp2.2\PresentationLayer.AssemblyInfoInputs.cache
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\obj\Debug\netcoreapp2.2\PresentationLayer.AssemblyInfo.cs
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\obj\Debug\netcoreapp2.2\PresentationLayer.csproj.CopyComplete
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\obj\Debug\netcoreapp2.2\PresentationLayer.dll
+D:\OneDrive\C#\ASP.NET\Brainoteka\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\obj\Debug\netcoreapp2.2\PresentationLayer.pdb

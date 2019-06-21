@@ -9,13 +9,29 @@
             @foreach (var dir in @Model)
             {
                 <li>
-                    <h2>@dir.Title</h2>
+                    <h2>
+                        <a
+                            asp-action="Index"
+                            asp-controller="Page"
+                            asp-route-pageId="@dir.Id"
+                            asp-route-pageType="Directory">
+                             @dir.Title
+                        </a>
+                    </h2>
                     @if (dir.Materials != null)
                     {
                         <ul>
                             @foreach (var mat in dir.Materials)
                             {
-                                <li>@mat.Title</li>
+                                <li>
+                                    <a
+                                        asp-action="Index"
+                                        asp-controller="Page"
+                                        asp-route-pageId="@mat.Id"
+                                        asp-route-pageType="Material">
+                                        @mat.Title
+                                    </a>
+</li>
                             }
                         </ul>
                     }
