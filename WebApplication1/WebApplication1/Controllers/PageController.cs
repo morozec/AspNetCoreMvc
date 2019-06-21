@@ -41,16 +41,21 @@ namespace WebApplication1.Controllers
             return View(viewModel);
         }
 
-        public IActionResult PageEditor(int pageId, PageEnums.PageType pageType)
+        [HttpGet]
+        public IActionResult PageEditor(int pageId, PageEnums.PageType pageType, int directoryId = 0)
         {
             PageEditModel editModel;
             switch (pageType)
             {
                 case PageEnums.PageType.Directory:
-                    editModel = _servicesManager.DirectoryService.GetDirectoryEditModel(pageId);
+                    editModel = pageId != 0
+                        ? _servicesManager.DirectoryService.GetDirectoryEditModel(pageId)
+                        : _servicesManager.DirectoryService.CreateNewDirectoryEditModel();
                     break;
                 case PageEnums.PageType.Material:
-                    editModel = _servicesManager.MaterialService.GetMaterialEditModel(pageId);
+                    editModel = pageId != 0
+                        ? _servicesManager.MaterialService.GetMaterialEditModel(pageId)
+                        : _servicesManager.MaterialService.CreateNewMaterialEditModel(directoryId);
                     break;
                 default:
                     editModel = null;
@@ -59,6 +64,24 @@ namespace WebApplication1.Controllers
 
             ViewBag.PageType = pageType;
             return View(editModel);
+        }
+
+        [HttpPost]
+        public IActionResult SaveDirectory(DirectoryEditModel model)
+        {
+            _servicesManager.DirectoryService.SaveDirectoryEditModelToDb(model);
+            return RedirectToAction("PageEditor",
+                "Page",
+                new {pageId = model.Id, pageType = PageEnums.PageType.Directory});
+        }
+
+        [HttpPost]
+        public IActionResult SaveMaterial(MaterialEditModel model)
+        {
+            _servicesManager.MaterialService.SaveMaterialEditModelToDb(model);
+            return RedirectToAction("PageEditor",
+                "Page",
+                new {pageId = model.Id, pageType = PageEnums.PageType.Material});
         }
     }
 }

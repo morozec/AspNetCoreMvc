@@ -1,0 +1,41 @@
+﻿@using DataLayer.Enums
+@using PresentationLayer.Models
+@model PresentationLayer.Models.PageEditModel
+@{
+    Layout = null;
+}
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+@switch (ViewBag.PageType)
+{
+    case PageEnums.PageType.Directory:
+        var dirModel = (DirectoryEditModel)Model;
+
+        <h1>Edit directory</h1>
+        <form asp-action="SaveDirectory" asp-controller="Page" method="post">
+
+            <input name="Id" type="hidden" value="@dirModel.Id" />
+            <input name="Title" value="@dirModel.Title" />
+            <textarea name="Html">@dirModel.Html</textarea>
+            <input type="submit" />
+        </form>
+
+        break;
+    case PageEnums.PageType.Material:
+        <h1>Edit material</h1>
+        var matModel = (MaterialEditModel)Model;
+
+
+        <form asp-action="SaveMaterial" asp-controller="Page" method="post">
+
+            <input name="Id" type="hidden" value="@matModel.Id" />
+            <input name="DirectoryId" value="@matModel.DirectoryId" />
+            <input name="Title" value="@matModel.Title" />
+            <textarea name="Html">@matModel.Html</textarea>
+            <input type="submit" />
+        </form>
+       
+        break;
+}
+

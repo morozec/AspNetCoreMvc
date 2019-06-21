@@ -5,6 +5,8 @@
     Layout = null;
 }
 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
 @switch (ViewBag.PageType)
 {
     case PageEnums.PageType.Directory:
@@ -18,17 +20,17 @@
                  @foreach (var mat in dirModel.Materials)
                  {
                      <li>
-                         <a
-                             asp-action="Index"
-                             asp-controller="Page"
-                             asp-route-pageId="@mat.Material.Id"
-                             asp-route-pageType="Material">
+                         <a asp-action="Index"
+                            asp-controller="Page"
+                            asp-route-pageId="@mat.Material.Id"
+                            asp-route-pageType="Material">
                              @mat.Material.Title
                          </a>
                      </li>
                  }
              </ul>
          }
+       
         break;
     case PageEnums.PageType.Material:
         var matModel = (MaterialViewModel)Model;
@@ -39,11 +41,10 @@
          {
              <ul>
                  <li>
-                     <a
-                         asp-action="Index"
-                         asp-controller="Page"
-                         asp-route-pageId="@matModel.NextMaterial.Id"
-                         asp-route-pageType="Material">
+                     <a asp-action="Index"
+                        asp-controller="Page"
+                        asp-route-pageId="@matModel.NextMaterial.Id"
+                        asp-route-pageType="Material">
                          @matModel.NextMaterial.Title
                      </a>
                  </li>

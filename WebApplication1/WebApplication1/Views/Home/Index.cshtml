@@ -3,6 +3,8 @@
     ViewData["Title"] = "Home Page";
 }
 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
 <div class="row">
     <div class="col-md-12">
         <ul>
@@ -15,7 +17,13 @@
                             asp-controller="Page"
                             asp-route-pageId="@dir.Id"
                             asp-route-pageType="Directory">
-                             @dir.Title
+                            @dir.Title
+                        </a>
+                        <a asp-action="PageEditor"
+                           asp-controller="Page"
+                           asp-route-pageId="@dir.Id"
+                           asp-route-pageType="Directory">
+                            - edit
                         </a>
                     </h2>
                     @if (dir.Materials != null)
@@ -31,12 +39,38 @@
                                         asp-route-pageType="Material">
                                         @mat.Title
                                     </a>
-</li>
+                                    <a asp-action="PageEditor"
+                                       asp-controller="Page"
+                                       asp-route-pageId="@mat.Id"
+                                       asp-route-pageType="Material"
+                                       asp-route-directoryId="@mat.DirectoryId">
+                                        - edit
+                                    </a>
+                                </li>
                             }
+                            
+                            <li>
+                                <a asp-action="PageEditor"
+                                   asp-controller="Page"
+                                   asp-route-pageId="0"
+                                   asp-route-pageType="Material"
+                                   asp-route-directoryId="@dir.Id">
+                                    - create Material
+                                </a>
+                            </li>
                         </ul>
                     }
                 </li>
             }
+            
+            <li>
+                <a asp-action="PageEditor"
+                   asp-controller="Page"
+                   asp-route-pageId="0"
+                   asp-route-pageType="Directory">
+                    - create Directory
+                </a>
+            </li>
         </ul>
 </div>
 </div>

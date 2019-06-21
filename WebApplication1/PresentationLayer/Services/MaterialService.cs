@@ -63,5 +63,10 @@ namespace PresentationLayer.Services
 
         }
 
+        public MaterialEditModel CreateNewMaterialEditModel(int directoryId)
+        {
+            return new MaterialEditModel() {DirectoryId = directoryId};
+        }
+
     }
 }
